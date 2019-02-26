@@ -5,13 +5,6 @@ import java.util.Set;
 import com.aravindan.springframework.petclinic.model.Owner;
 import com.aravindan.springframework.petclinic.model.Vet;
 
-public interface VetService {
+public interface VetService extends CrudService<Vet, Long>{
 	Vet findByLastName(String lastName);
-
-	Vet findById(Long id);
-
-	Vet save(Vet vet);
-
-	Set<Vet> finaAll();
-
 }
