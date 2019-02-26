@@ -9,7 +9,7 @@
 	</parent>
 	<groupId>com.aravindan.springframework.petclinic</groupId>
 	<artifactId>aravindan-pet-clinic</artifactId>
-	<version>0.0.1</version>
+	<version>0.0.2-SNAPSHOT</version>
 	<name>aravindan-pet-clinic</name>
 	<description>Demo of Dependency Injection in Spring Framework</description>
 
@@ -42,6 +42,6 @@
   </modules>
   <scm>
   	<developerConnection>scm:git:git@github.com:aravindanvenkataraju/aravindan-pet-clinic.git</developerConnection>
-    <tag>aravindan-pet-clinic-0.0.1</tag>
+    <tag>HEAD</tag>
   </scm>
 </project>
