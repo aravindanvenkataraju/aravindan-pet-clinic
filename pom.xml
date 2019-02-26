@@ -25,6 +25,13 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-release-plugin</artifactId>
+				<configuration>
+					<goals>install</goals>
+				</configuration>
+			</plugin>
 		</plugins>
 	</build>
 
@@ -33,4 +40,7 @@
     <module>aravindan-pet-clinic-data</module>
     <module>aravindan-pet-clinic-web</module>
   </modules>
+  <scm>
+  	<developerConnection>scm:git:git@github.com:aravindanvenkataraju/aravindan-pet-clinic.git</developerConnection>
+  </scm>
 </project>
