@@ -1,4 +1,4 @@
-package com.aravindan.springframework.didemo;
+package com.aravindan.springframework.petclinic;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
