@@ -1,4 +1,4 @@
-package com.aravindan.springframework.didemo;
+package com.aravindan.springframework.petclinic;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
